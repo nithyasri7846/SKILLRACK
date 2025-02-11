@@ -24,3 +24,21 @@ while new_index >= 7:
 
 # Output the day corresponding to the D-th date
 print(days[new_index])
+
+#Output
+'''Explanation with an Example
+Example 1:
+
+Input:
+MON
+10
+
+Process:
+start_index for "MON" is 0.
+offset = 10 - 1 = 9.
+Subtract 7 from 9: 9 - 7 = 2.
+Add start_index and adjusted offset: 0 + 2 = 2.
+The day at index 2 is "WED".
+
+Output:
+WED'''
